@@ -1,0 +1,17 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test:jest": "jest",
+    "test:cypress": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "cypress": "^13.0.0"
+  }
+}
